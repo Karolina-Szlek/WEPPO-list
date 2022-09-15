@@ -1,0 +1,58 @@
+//pisz w ejs ( format)
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/print">
+        <!-- post-wrzucanie na strone -->
+    <div>
+    Imie: <input type='text' name='name' value='' , required/>
+    </div>
+    <div>
+    Nazwisko: <input type='text' name='surname' value='', required />
+    <!-- text- sprawdzanie typu, w które pole wpisać, że będzie value jak złe podane, zwróc  -->
+    </div>
+    <div>
+    Przedmiot: <input type='text' name='subject' value='', required />
+    </div>
+    <div>
+    Zadanie 1: <input type='number' name='e1' value='' />
+    </div>
+    <div>
+    Zadanie 2: <input type='number' name='e2' value='' />
+    </div>
+    <div>
+    Zadanie 3: <input type='number' name='e3' value='' />
+    </div>
+    <div>
+    Zadanie 4: <input type='number' name='e4' value='' />
+    </div>
+    <div>
+    Zadanie 5: <input type='number' name='e5' value='' />
+    </div>
+    <div>
+    Zadanie 6: <input type='number' name='e6' value='' />
+    </div>
+    <div>
+    Zadanie 7: <input type='number' name='e7' value='' />
+    </div>
+    <div>
+    Zadanie 8: <input type='number' name='e8' value='' />
+    </div>
+    <div>
+    Zadanie 9: <input type='number' name='e9' value='' />
+    </div>
+    <div>
+    Zadanie 10: <input type='number' name='e10' value='' />
+    </div>
+    <button type="submit">Zapisz</button>
+    </form>
+</body>
+</html>
